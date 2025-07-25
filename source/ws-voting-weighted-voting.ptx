@@ -8,7 +8,7 @@
 <task workspace="1in">
 <p>
       Notes on weighted voting systems: \index{weighted voting}
-	
+</p>
 	<ul>
     <li>
         <p>
@@ -36,18 +36,107 @@
 </ul>
 
 <p>
-</p>
-
-<p>
-    Weighted voting systems are when there are <m>n</m> voters labeled <m>P_{1}\dots P_{n}</m>, and each voter casts a vote with a certain weight, <m>w_{i}</m>.
-    Think of this as having each voter being able to cast <m>w_{i}</m> votes all for the same decision.
-    In order for a motion to pass, the sum of all the votes needs to be at least <m>q</m>, the quota.
-    We need the quota to be more than 50%of the sum of all the votes and no more than the sum of all the votes, but it can be anything in between.
+    Weighted voting systems are when there are <m>n</m> voters labeled <m>P_{1}\dots P_{n}</m>, 
+    and each voter casts a vote with a certain weight, <m>w_{i}</m>.
+    Think of this as having each voter being able to cast <m>w_{i}</m> 
+    votes all for the same decision.
+    In order for a motion to pass, the sum of 
+    all the votes needs to be at least <m>q</m>, the quota.
+    We need the quota to be more than 50% of 
+    the sum of all the votes and no more than the sum of all the votes, but it can be anything in between.
     We give a weighted voting system as <m>[q|w_{1},w_{2},\dots,w_{n}]</m>.
 </p>
-</p>
+
 </task>
+    <p>
+    In a weighted voting system with 
+    weights <m>[30, 29, 16, 8, 3, 1]</m>, 
+    if a two-thirds majority of votes is needed to pass a motion, 
+    what is the quota? 
+</p>
 </activity>
+<task>
+Consider the weighted voting system <m>[14, 9, 8 ,5]</m>.
+<ol>
+  <li>
+    <p>
+      What is the largest reasonable quota for this system? 
+    </p>
+     <solution>
+      <p>  
+        36
+      </p>  
+    </solution>
+  </li>
 
+  <li>
+    <p>
+      What is the smallest reasonable quota for this system?   
+    </p>
+     <solution>
+      <p>  
+        19
+      </p>  
+    </solution>
+  </li>
+</ol>
+</task>
+Consider the weighted voting system <m>[20|7,5,4,4,2,2,2,1,1]</m>.
+<ol>
+  <li>
+    <p>
+      How many voters are there?   
+    </p>
+   
+    <solution>
+      <p>  
+        9
+      </p>  
+    </solution>
+  </li>
 
+  <li>
+    <p>
+      What is the quota?  
+    </p>
+     <solution>
+      <p>  
+        20
+      </p>  
+    </solution>
+  </li>
+
+  <li>
+    <p>
+      What is the weight for voter <m>P_{2}</m>?   
+    </p>
+     <solution>
+      <p>  
+        5
+      </p>  
+    </solution>
+  </li>
+
+  <li>
+    <p>
+      If the first 4 voters vote for a motion and the rest vote against, does the motion pass?   
+    </p>
+     <solution>
+      <p>  
+        Yes
+      </p>  
+    </solution>
+  </li>
+
+  <li>
+    <p>
+      If <m>P_{1}</m> and <m>P_{2}</m> vote against a motion, will the motion pass? 
+    </p>
+     <solution>
+      <p>  
+        No
+      </p>  
+    </solution>
+  </li>
+</ol>
 </worksheet>
